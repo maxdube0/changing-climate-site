@@ -1,0 +1,189 @@
+#bannerD{
+  border: 1px solid #00571a;
+  background-image: url(../img/causes.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+}
+
+#bannerI{
+  border: 1px solid #00571a;
+  background-image: url(../img/effects.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+}
+
+#bannerR{
+  border: 1px solid #00571a;
+  background-image: url(../img/responses.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+}
+
+#bannerD #caption{
+  width: 20%;
+  background-color: #fff;
+  margin-top: 24rem;
+  margin-left: 8rem;
+  border: 1px solid #00571a;
+}
+
+#bannerD #caption h3{
+  text-align: center;
+  padding: 0.3rem;
+}
+
+#bannerI #caption{
+  width: 20%;
+  background-color: #fff;
+  margin-top: 24rem;
+  margin-left: 8rem;
+  border: 1px solid #00571a;
+}
+
+#bannerI #caption h3{
+  text-align: center;
+  padding: 0.3rem;
+}
+
+#bannerR #caption{
+  width: 20%;
+  background-color: #fff;
+  margin-top: 24rem;
+  margin-left: 8rem;
+  border: 1px solid #00571a;
+}
+
+#bannerR #caption h3{
+  text-align: center;
+  padding: 0.3rem;
+}
+
+#content h1{
+  text-align: center;
+  padding: 2rem;
+  background: #008026;
+  color: #fff;
+}
+
+#content .contentGrid{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#content .contentGrid .gridImg{
+  flex: 1 0 50%;
+  margin: 0 auto;
+}
+
+#content .contentGrid .gridImg img{
+  width: 100%;
+  height: 95%;
+  padding-top: 1.25rem;
+}
+
+#content .contentGrid .gridTxt{
+  flex: 1 0 50%;
+  margin: 0 auto;
+}
+
+#content .contentGrid .gridTxt h2{
+  padding: 1rem;
+  background: #00571a;
+  color: #fff;
+}
+
+#content .contentGrid .gridTxt p{
+  padding: 0.2rem 2rem;
+  color: #00571a;
+}
+
+#content .contentGrid .gridTxt p a{
+  color: #00571a;
+}
+
+#content .contentGrid .gridTxt ul{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#content .contentGrid .gridTxt ul li{
+  flex: 1 0 50%;
+  text-align: center;
+  padding-top: 3rem;
+  list-style-type: none;
+}
+
+#content .contentGrid .gridTxt ul li a{
+  text-decoration: underline;
+  color: #fff;
+  background: #00571a;
+  padding: 1rem;
+}
+
+#content .contentGrid .ingridTxt{
+  flex: 1 0 45%;
+  margin: 0 auto;
+  background: #008026;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 80%;
+}
+
+#content .contentGrid .ingridTxt img{
+  width: 100%;
+  height: 40%;
+  border: 1px solid #fff;
+}
+
+#content .contentGrid .ingridTxt p{
+  padding: 2rem;
+  line-height: 1.7rem;
+}
+
+#content .contentGrid .ingridTxt p a{
+  color: #fff;
+}
+
+#content #contactForm{
+  margin: 0 auto;
+  background: #008026;
+  color: #fff;
+  padding: 4rem;
+  width: 60%;
+  text-align: center;
+}
+
+#content #contactForm label{
+  display: block;
+  padding: 1rem;
+}
+
+#content #contactForm input[type="name"]{
+  padding-bottom: 1rem;
+  width: 30%;
+}
+
+#content #contactForm input[type="email"]{
+  padding-bottom: 1rem;
+  width: 30%;
+}
+
+#content #contactForm input[type="text"]{
+  padding-bottom: 1rem;
+  width: 50%;
+  height: 10rem;
+}
+
+#content #contactForm input[type="submit"]{
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 50%;
+  background: #00571a;
+  color: #fff;
+}
